@@ -1,0 +1,36 @@
+{
+    "paths": [
+        {
+            "name": "/calculate",
+            "lambdaFunction": "calculator",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/calculate"
+        }
+    ],
+    "resourceName": "calculator",
+    "apiName": "calculator",
+    "functionArns": [
+        {
+            "lambdaFunction": "calculator"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-testapp-dev-133756-authRole",
+        "unAuthRoleName": "amplify-testapp-dev-133756-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "calculator",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "cf92e4c9"
+}

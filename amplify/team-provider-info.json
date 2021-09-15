@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testapp-dev-133756-authRole",
+      "UnauthRoleArn": "arn:aws:iam::985973051225:role/amplify-testapp-dev-133756-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::985973051225:role/amplify-testapp-dev-133756-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-testapp-dev-133756-deployment",
+      "UnauthRoleName": "amplify-testapp-dev-133756-unauthRole",
+      "StackName": "amplify-testapp-dev-133756",
+      "StackId": "arn:aws:cloudformation:eu-west-1:985973051225:stack/amplify-testapp-dev-133756/97a3c300-1558-11ec-bc12-02dd53f75593",
+      "AmplifyAppId": "d12rn5t2omewo7"
+    },
+    "categories": {
+      "function": {
+        "calculator": {
+          "deploymentBucketName": "amplify-testapp-dev-133756-deployment",
+          "s3Key": "amplify-builds/calculator-2f576f754b5031357871-build.zip"
+        }
+      }
+    }
+  }
+}
